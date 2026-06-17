@@ -1,115 +1,82 @@
 <!DOCTYPE html>
-
 <html lang="zh-CN">
-
 <head>
-
   <meta charset="UTF-8" />
-
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
   <title>隐私政策 - 螺母和螺栓颜色分类</title>
-
   <style>
-
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
-
       line-height: 1.7; max-width: 820px; margin: 0 auto; padding: 24px 16px 48px; color: #222; background: #fafafa; }
-
     h1 { font-size: 1.6rem; }
-
     h2 { font-size: 1.15rem; margin-top: 1.6rem; border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; }
-
     ul { padding-left: 1.2rem; }
-
     .meta { color: #666; font-size: 0.95rem; }
-
+    table { width: 100%; border-collapse: collapse; font-size: 0.92rem; margin: 12px 0; }
+    th, td { border: 1px solid #ccc; padding: 8px; vertical-align: top; text-align: left; }
+    th { background: #eee; }
+    a { color: #1a73e8; word-break: break-all; }
   </style>
-
 </head>
-
 <body>
-
   <h1>隐私政策</h1>
-
   <p class="meta"><strong>应用名称：</strong>螺母和螺栓颜色分类<br />
-
   <strong>包名：</strong>com.nuts.bolts.sort.offline.legend.master<br />
-
   <strong>游戏类型：</strong>单机休闲益智游戏（本地存档，无在线排行榜）<br />
-
   <strong>开发者：</strong>号角工作室<br />
-
   <strong>负责人：</strong>张号<br />
+  <strong>更新日期：</strong>2026年6月16日</p>
 
-  <strong>更新日期：</strong>2026年6月13日</p>
-
-
-
-  <p>欢迎使用《螺母和螺栓颜色分类》（以下简称「本游戏」）。本游戏核心玩法可离线体验，进度保存在本地设备。请您在使用前仔细阅读本政策。</p>
-
-
+  <p>欢迎使用《螺母和螺栓颜色分类》（以下简称「本游戏」）。本游戏核心玩法可离线体验，进度保存在本地设备。请您在使用前仔细阅读本政策；首次启动时我们会通过弹窗征求您的同意，<strong>在您点击「同意并继续」之前，我们不会初始化广告 SDK 或读取 OAID 等设备标识</strong>。</p>
 
   <h2>一、我们收集的信息</h2>
-
   <ul>
-
     <li><strong>游戏进度与设置</strong>：关卡进度、金币、体力、音效/震动偏好等，保存在本地设备（PlayerPrefs），不上传至我们的服务器。</li>
-
-    <li><strong>广告相关标识</strong>：为展示 TapAD 广告，第三方广告 SDK 可能处理设备标识、网络状态等信息，具体以其隐私说明为准。</li>
-
+    <li><strong>广告相关标识</strong>：在您同意本政策后，为展示 TapAD 广告，第三方广告 SDK 可能处理 OAID、网络状态、设备型号、广告交互数据等信息，具体以其隐私说明为准。</li>
   </ul>
-
-
 
   <h2>二、信息的使用目的</h2>
-
   <ul>
-
     <li>提供核心玩法与本地进度保存；</li>
-
     <li>保存您的音效、震动等个性化设置；</li>
-
-    <li>展示激励视频、Banner 等广告内容。</li>
-
+    <li>在您同意后展示激励视频、Banner 等广告内容。</li>
   </ul>
 
-
-
-  <h2>三、第三方 SDK</h2>
-
-  <p>本游戏接入 <strong>TapTap TapAD 广告 SDK</strong>，用于激励视频与 Banner 广告。该 SDK 由第三方运营，可能收集设备信息、广告交互数据等。详情请参阅 TapTap 广告联盟相关说明。</p>
-
-  <p>本游戏<strong>不接入</strong>在线排行榜、云存档服务。</p>
-
-
+  <h2>三、第三方 SDK 集成说明</h2>
+  <p>本游戏接入以下第三方 SDK。我们<strong>仅在您同意本隐私政策后</strong>才会初始化相关 SDK。</p>
+  <table>
+    <thead>
+      <tr>
+        <th>SDK 名称</th>
+        <th>开发者全称</th>
+        <th>使用目的与场景</th>
+        <th>可能收集的个人信息类型</th>
+        <th>隐私政策链接</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>TapADN SDK<br />（惠玩广告 SDK）</td>
+        <td>上海艾得蒽数字科技有限公司</td>
+        <td>激励视频、Banner 等广告投放；广告监测归因、反作弊与统计分析</td>
+        <td>OAID、Android ID（可选）、IP 地址、设备型号/系统版本、网络状态（Wi-Fi/运营商）、应用包名、广告展示/点击/关闭等交互数据（以实际 SDK 版本为准）</td>
+        <td><a href="https://ssp.dirichlet.cn/docs/agreement" target="_blank" rel="noopener">https://ssp.dirichlet.cn/docs/agreement</a><br />合规说明：<a href="https://ssp.dirichlet.cn/docs/compliance" target="_blank" rel="noopener">https://ssp.dirichlet.cn/docs/compliance</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>上述 SDK 由第三方运营，其数据处理规则以各 SDK 官方隐私政策为准。本游戏<strong>不接入</strong>在线排行榜、云存档服务。</p>
 
   <h2>四、您的权利</h2>
-
   <p>您可在系统设置中卸载本游戏以删除全部本地数据。如有隐私相关问题，请通过 TapTap 商店页或开发者联系方式与我们联系。</p>
 
-
-
   <h2>五、未成年人保护</h2>
-
   <p>若您为未成年人，请在监护人指导下阅读并决定是否同意本政策。</p>
 
-
-
   <h2>六、政策更新</h2>
-
   <p>我们可能适时更新本政策，更新后将通过本页面公布。</p>
 
-
-
   <h2>七、联系我们</h2>
-
   <p>开发者：号角工作室<br />
-
   负责人：张号<br />
-
   联系渠道：TapTap 游戏详情页「开发者」入口或官方工单。</p>
-
 </body>
-
 </html>
